@@ -3,16 +3,16 @@ a=0
 b=1
 Sum=0
 if(n<=0):
-    Print ("give n value greater than zero")
+    print ("give n value greater than zero")
 elif(n==1):
-    Print(a)
+    print(a)
 else:
-   Print(a)
+   print(a)
    print(b)
    i=3
-   while(i<n):
+   while(i<n+1):
        sum=a+b
-       Print(sum)
+       print(sum)
        a=b
        b=sum
        i+=1
